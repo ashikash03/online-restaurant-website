@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashN' Dine</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+    <header>
+        <div class="title-container">
+            <img id="h-logo" src="./title/logo2.png" alt="Logo">
+            <h2><i class="fa-solid fa-location-arrow"><select name="" id="">
+                        <option value="kochi">Kochi</option>
+                    </select></i>
+            </h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href=""><i class="fa-solid fa-house"> Home</i></a></li>
+                <li><a href=""><i class="fa-solid fa-book-open"> services</i></a></li>
+                <li><a href=""><i class="fa-solid fa-circle-info"> About</i></a></li>
+                <li><a href=""><i class="fa-solid fa-phone"> Contact</i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="banner">
+        <div class="slideshow">
+            <div class="slide"><img src="./slideshow/1.jpg" alt="">
+            </div>
+            <div class="slide"><img src="./slideshow/2.jpg" alt=""></div>
+            <div class="slide"><img src="./slideshow/3.webp" alt="">
+            </div>
+            <div class="slide"><img src="./slideshow/4.jpg" alt=""></div>
+        </div>
+        <div class="quote">
+            <p>"Indulge in gourmet delights delivered to your doorstep with <mark
+                    style="background-color:rgba(255, 255, 0, 0.64)">Dash N' Dine!</mark>"</p>
+        </div>
+    </div>
+    <h1>- Featured Dishes -</h1>
+    <div class="row">
+
+        <div class="col">
+            <img src="./featured/kozhi_kurumulak_roast.jpg" alt="">
+            <h5>Kozhi Kurumulak Roast</h5>
+            <p>₹384</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./featured/frenchfries_with_chicken_tikka.jpg" alt="">
+            <h5>Chicken Tikka</h5>
+            <p>₹179</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./featured/paal_kappa_beef_roast.jpg" alt="">
+            <h5>Paal Kappa Beef Roast</h5>
+            <p>₹400</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./featured/meal_ayala.jpg" alt="">
+            <h5>Meals with Ayala Fry</h5>
+            <p>₹200</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./featured/blueberry_cheesecake.jpg" alt="">
+            <h5>Blueberry Cheesecake</h5>
+            <p>₹100</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+        <div class="col">
+            <img src="./featured/special-falooda.jpg" alt="">
+            <h5>Special Falooda</h5>
+            <p>₹120</p>
+            <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+        </div>
+    </div>
+    <h1 id="menu">- Today's Menu -</h1>
+    <div class="menu-row">
+
+
+        <span class="starters">
+            <h3>Starters</h3>
+            <span class="non-veg">
+                <h4>Non-Veg <i class="fa-solid fa-square-caret-up"></i></h4>
+                <div class="menu-col">
+                    <img src="./starters/fish_fingers.avif" alt="">
+                    <h5>Fish Fingers(8-pcs)</h5>
+                    <p>₹269</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./starters/chicken_fingers.avif" alt="">
+                    <h5>Chicken Fingers(8-pcs)</h5>
+                    <p>₹249</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+
+            </span>
+            <span class="veg">
+                <h4>Veg <i class="fa-solid fa-square-caret-up"></i></h4>
+                <div class="menu-col">
+                    <img src="./starters/french_fries_with_paprika.avif" alt="">
+                    <h5>French Fries With Paprika</h5>
+                    <p>₹400</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./starters/mozzarella_strips.avif" alt="">
+                    <h5>mozzarella Strips</h5>
+                    <p>₹200</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+            </span>
+    </div>
+    </div>
+    <div class="menu-row">
+
+        <span class="main-course">
+            <h3>Main Course</h3>
+            <span class="non-veg">
+                <h4>Non-Veg <i class="fa-solid fa-square-caret-up"></i></h4>
+                <div class="menu-col">
+                    <img src="./main course/Biriyani Combo (2 Chicken Single Dum Biriyani.avif" alt="">
+                    <h5>Chicken Biriyani</h5>
+                    <p>₹140</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./main course/Beef Biriyani.avif" alt="">
+                    <h5>Beef Biriyani</h5>
+                    <p>₹160</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+
+            </span>
+            <span class="veg">
+                <h4>Veg <i class="fa-solid fa-square-caret-up"></i></h4>
+                <div class="menu-col">
+                    <img src="./main course/Mushroom Biriyani.avif" alt="">
+                    <h5>Mushroom Biriyani</h5>
+                    <p>₹150</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./main course/Paneer Biriyani.avif" alt="">
+                    <h5>Paneer Biriyani</h5>
+                    <p>₹150</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+            </span>
+        </span>
+    </div>
+    <div class="menu-row">
+        <span class="desserts">
+            <h3>Desserts</h3>
+            <span class="cold">
+                <h4>Cold <i class="fa-regular fa-snowflake"></i></h4>
+                <div class="menu-col">
+                    <img src="./Desserts/Strawberry Cheesecake.avif" alt="">
+                    <h5>Strawberry Cheesecake</h5>
+                    <p>₹80</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./Desserts/Vanilla Ice Cream.avif" alt="">
+                    <h5>Vanilla Ice Cream</h5>
+                    <p>₹60</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+
+            </span>
+            <span class="hot">
+                <h4>Hot <i class="fa-solid fa-fire"></i></h4>
+                <div class="menu-col">
+                    <img src="./Desserts/Chocolate Brownie.avif" alt="">
+                    <h5>Hot Chocolate Brownie</h5>
+                    <p>₹150</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./Desserts/Classic Kunafa.avif" alt="">
+                    <h5>Classic Kunafa</h5>
+                    <p>₹350</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+            </span>
+        </span>
+    </div>
+
+    <div class="menu-row">
+        <span class="beverages">
+            <h3>Beverages</h3>
+            <span class="cold">
+                <h4>Cold <i class="fa-regular fa-snowflake"></i></h4>
+                <div class="menu-col">
+                    <img src="./Beverages/Mango Chilli Iced Tea.jpg" alt="">
+                    <h5>Mango Iced Tea</h5>
+                    <p>₹50</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./Beverages/Litchi Mojito.webp" alt="">
+                    <h5>Litchi Mojito</h5>
+                    <p>₹60</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+
+            </span>
+            <span class="hot">
+                <h4>Hot <i class="fa-solid fa-fire"></i></h4>
+                <div class="menu-col">
+                    <img src="./Beverages/Black coffee.avif" alt="">
+                    <h5>Black coffee</h5>
+                    <p>₹20</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+                <div class="menu-col">
+                    <img src="./Beverages/Ginger Lemon Chai.jpeg" alt="">
+                    <h5>Ginger Lemon Chai</h5>
+                    <p>₹20</p>
+                    <span><button class="add-to-cart">+</button> <button class="remove-from-cart">-</button></span>
+                </div>
+            </span>
+        </span>
+    </div>
+    <footer id="footer">
+        <div class="about">
+            <h3>About</h3>
+            <p>
+                Since opening our doors in 2000, our restaurant has become a beloved culinary destination in the vibrant
+                cities of Kochi, Kozhikode, and Trivandrum. We are proud to house a diverse array of flavors from across
+                Kerala and around the world, offering a unique dining experience that celebrates both traditional and
+                contemporary cuisine. Our team is led by a group of well-known chefs, each bringing their own expertise
+                and creativity to the table. Their passion for food and commitment to excellence ensure that every dish
+                is crafted with the utmost care and attention to detail. Whether you're indulging in our signature
+                Kerala dishes or exploring our international offerings, you'll find that every bite is a testament to
+                our dedication to quality and taste. Join us for an unforgettable culinary journey that promises to
+                delight your senses and leave you coming back for more.
+            </p>
+            <hr>
+            <div class="restaurant-images">
+                <h3>Restaurant</h3><br>
+                <img src="https://content3.jdmagicbox.com/comp/goa/q3/0832px832.x832.230322232002.h9q3/catalogue/dine-and-dash-family-restaurant-vasco-da-gama-goa-restaurants-spi9pqsw9z.jpg"
+                    alt="Restaurant Image">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipN8NJTYM0nHyDx2JbG-yMXgzfOuHcAXexG2dBSd=s1360-w1360-h1020"
+                    alt="Restaurant Image">
+            </div>
+            <hr style="margin-bottom: 5px;">
+            <div class="chef-images">
+                <h3>Chefs</h3><br>
+                <img src="https://etimg.etb2bimg.com/photo/92677259.cms" alt="Chef Image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn9iFSOes_8PkdjVp74jng_BZYDr6RJsiYdw&s"
+                    alt="Chef Image">
+                <img src="https://th-i.thgim.com/public/life-and-style/food/j8xxrq/article66836544.ece/alternates/FREE_1200/Chef%20Sanjeev%20Kapoor%205%20of%207.jpg"
+                    alt="Chef Image">
+            </div>
+            <hr>
+            <div class="social">
+                <h5>Social Links:</h5>
+                <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <hr style="height: 1000px; margin-right:15px">
+        <div class="contact">
+            <h3>Contact</h3>
+            <form action="" method="post">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <hr style="margin-top: 5px; margin-bottom: 5px; ">
+            <div class="contact-info">
+                <h3>Address: </h3>
+                <p><b>Dash N' Dine</b>,</p>
+                <p>Plot No, 272, 11th Cross Rd, MIG Housing Colony,</p>
+                <p>Panampilly Nagar, Kochi</p>
+                <p>Ernakulam, Kerala 682036</p>
+                <p>Phone: *91-9191919191</p>
+            </div>
+            <hr style="margin-top: 2px; margin-bottom: 5px">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15718.814576082683!2d76.28547898777404!3d9.95859642684579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0872c7abe6c9e7%3A0x7138a08633b8c9dd!2sPanampilly%20Nagar%2C%20Kochi%2C%20Ernakulam%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sus!4v1722707558312!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+
+</html>
